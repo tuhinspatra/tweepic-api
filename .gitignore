@@ -1,0 +1,9 @@
+# Twitter App Settings
+config.ini
+
+__pycache__/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+test.ipynb
