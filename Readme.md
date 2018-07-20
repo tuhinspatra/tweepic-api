@@ -3,13 +3,13 @@
 
 
 <p align="center">
-<a href="https://github.com/armag-pro/Bandit-Girl-AR/">
+<a href="https://github.com/armag-pro/tweepic-api/">
     <img src="https://img.shields.io/badge/version-1.1-blue.svg" alt="version 1.1">
 </a>
-<a href="https://github.com/armag-pro/Bandit-Girl-AR/pulls">
+<a href="https://github.com/armag-pro/tweepic-api/pulls">
     <img src="https://img.shields.io/badge/PRs-Welome-brightgreen.svg" alt="PRs Welcome">
 </a>
-<a href="https://github.com/armag-pro/Bandit-Girl-AR">
+<a href="https://github.com/armag-pro/tweepic-api/blob/master/LICENSE">
     <img src="https://img.shields.io/apm/l/vim-mode.svg" alt="License MIT">
 </a>
 </p>
@@ -33,7 +33,8 @@
 
 > The AI tweet generator based on images for the creatively lazy folks.
 
-### __This repo contains the source code of the flask app deployed on Heroku for a REST API that is used by my app [ai-tweepic](https://github.com/armag-pro/ai-tweepic). It is hosted [here](https://tweepic.herokuapp.com/).__
+### __This repo contains the source code of the flask app deployed on Heroku for a REST API that is used by my app [ai-tweepic](https://github.com/armag-pro/ai-tweepic). It is hosted [here](https://tweepic.herokuapp.com/). Try the app before exploring this repo. The API accepts an array of keywords as a JSON payload at https://tweepic.herokuapp.com/keywords/.
+The content below is copied from readme of AI Tweepic.__
 
 
 AI-Tweepic is a native desktop app (available for Windows, Mac & Linux) that generates tweets (Twitter status updates) based on a given input image. The app does not use any text generator for pictures (currently developed by only few premium AI agents).
@@ -43,13 +44,6 @@ AI-Tweepic is a native desktop app (available for Windows, Mac & Linux) that gen
     * The results obtained are very graphic and uses strong language as I ended up training it on raw twitter data. If you are offended by violence or slangs then please step back.
     * The output is definitely not very impressive at this stage. In fact the model hardly generates meaningful words let alone sentences. But with more compute power or longer training or more impressive algorithms much more meaningful results can be obtained. Check [Ryan Kiros'](https://github.com/ryankiros) magnificient [work](https://github.com/ryankiros/neural-storyteller) for a demo. (This work is not it's fork in anyway)
 
-## Get Started
-
-    * Download build for your respective OS from release-builds/ (No need to clone whole repo.)
-    * Double-click & run!
-    * Upload an image
-    * Hit upload
-    * Voila!
 
 ## HowTo's & Scope for Improvement:
 * The LSTM model is pretrained on my GPU-less local machine for about an hour. The results can be drastically improved by training on free cloud engines. [FloydHub](https://www.floydhub.com/) is the easiest to get started.
